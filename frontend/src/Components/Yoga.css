@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+  background: #111;
+  background-repeat: no-repeat;
+}
+
+.YogaSection {
+  background: url(https://images.unsplash.com/photo-1667417978806-530efedd30f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZGFyayUyMGJhY2slMjBncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 880px;
+  height: 850px;
+  text-align: center;
+  display: flex;
+  color: white;
+  box-shadow: 3px 10px 20px 5px rgba(0, 0, 0, .5);
+  align-items: center;
+  background-color: black;
+}
+
+.info {
+  width: 50%;
+  background: rgba(0, 0, 0, 0.8);
+ margin-right:30px;
+  padding: 30px 0;
+  border-right: 5px solid rgba(0, 0, 0, 0.8);
+  
+  
+}
+
+.info h2 {
+    padding-top: 30px;
+    font-weight: 300;
+  }
+
+.info p {
+    font-size: 18px;
+  }
+.info .icon {
+    font-size: 8em;
+    padding: 20px 0;
+    color: rgba(10, 180, 180, 1);
+  } 
+
+  li p{
+    color:rgb(185, 179, 179);
+  }
+
+.YogaForm {
+  width: 70%;
+  padding: 30px 0;
+  background: rgba(7, 16, 16, 0.8);
+  transition: .2s;
+  
+}
+.YogaForm h2 {
+    font-weight: 300;
+  }
+
+.inputFields {
+  margin: 15px 0;
+  font-size: 16px;
+  padding: 10px;
+  width: 250px;
+  border: 1px solid rgba(10, 180, 180, 1);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: rgba(20, 20, 20, .2);
+  color:gray;
+  outline: none;
+}
+
+.radiostyle{
+  margin:15px;
+  font-size: 16px;
+  padding: 5px;
+  width: 90px; 
+  color:gray;
+}
+
+.displayDate{
+  display: flex;
+}
+.displayDate h4{
+  color: rgb(193, 191, 191);
+}
+.displayDate input{
+  width:150px;
+  margin: 5px;
+  margin-left: 20px;
+}
+.box select {
+  margin: 15px 0;
+  font-size: 16px;
+  padding: 10px;
+  width: 270px;
+  border: 1px solid rgba(10, 180, 180, 1);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background: rgba(7, 7, 7, 0.2);
+  /* color: white; */
+  color:gray;
+  outline: none;
+}
+
+
+.box select option {
+  padding: 30px;
+  /* background: rgba(20, 20, 20, .2); */
+  /* color:"white"; */
+}
+
+.noBullet {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+#pay-btn {
+  border: 1px solid rgba(10, 180, 180, 1);
+  background: rgba(20, 20, 20, .6);
+  font-size: 18px;
+  color: white;
+  margin-top: 30px;
+  padding: 10px 50px;
+  cursor: pointer;
+  transition: .4s;
+  
+}
+#pay-btn:hover {
+    background: rgba(20, 20, 20, .8);
+    padding: 10px 80px;
+  }
